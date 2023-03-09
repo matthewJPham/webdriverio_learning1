@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676013885350' stop='1676013898378'>
+    <name>VRS Buynamics: As a user, I can log into the VRS platform</name>
+    <title>VRS Buynamics: As a user, I can log into the VRS platform</title>
+    <test-cases>
+        <test-case start='1676013885350' status='passed' stop='1676013885352'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676013885352' status='passed' stop='1676013898053'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1676013885355' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='11299c72-7a9b-479f-94c4-3efdbbb917d0-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676013885358' status='passed' stop='1676013898050'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676013898053' status='broken' stop='1676013898376'>
+            <name>When I login with admin and Welkom01!</name>
+            <title>When I login with admin and Welkom01!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1676013898059' status='passed' stop='1676013898185'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='385467a1-00e4-409e-8c97-84a7fa5b7ada-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='dd600abe-4e16-4618-ad89-b9eb7a33f5d9-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676013898205' status='passed' stop='1676013898263'>
+                    <name>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/click</name>
+                    <title>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676013898265' status='passed' stop='1676013898282'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b565b2b6-cae3-42ad-8ff4-0df12f679bc9-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='91e13742-a5eb-4984-94b5-b4a22a759dbf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676013898287' status='passed' stop='1676013898328'>
+                    <name>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/clear</name>
+                    <title>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676013898328' status='passed' stop='1676013898371'>
+                    <name>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/value</name>
+                    <title>POST /session/:sessionId/element/66389cf0-f56f-4dc1-b967-c36004767c8e/value</title>
+                    <attachments>
+                        <attachment title='Request' source='07c7d194-fd54-4550-8b38-85c92df77d7c-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='ec585e4e-aada-456e-8212-124c91fcb822-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>Error: directory (C:\Auto_learning\webdriverio\C:\Auto_learning\screenshot) doesn't exist</message>
+                <stack-trace>Error: directory (C:\Auto_learning\webdriverio\C:\Auto_learning\screenshot) doesn't exist
+                    at async LoginPage.login (file:///C:/Auto_learning/webdriverio/features/pageobjects/login.page.ts:31:9)
+                    at async World.&lt;anonymous> (file:///C:/Auto_learning/webdriverio/features/step-definitions/steps.ts:19:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676013898376' status='broken' stop='1676013898377'>
+            <name>Then I should see message and date saying Based on prefab scorecards generated on</name>
+            <title>Then I should see message and date saying Based on prefab scorecards generated on</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see message and date saying Based on prefab scorecards generated on" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see message and date saying Based on prefab scorecards generated on" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Auto_learning\webdriverio\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the VRS platform):3:3
+                	at Step(I should see message and date saying &lt;message>):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676013898377' status='passed' stop='1676013898378'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

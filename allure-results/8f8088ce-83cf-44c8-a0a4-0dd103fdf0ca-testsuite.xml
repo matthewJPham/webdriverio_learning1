@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675939957636' stop='1675939970188'>
+    <name>VRS Buynamics: As a user, I can log into the VRS platform</name>
+    <title>VRS Buynamics: As a user, I can log into the VRS platform</title>
+    <test-cases>
+        <test-case start='1675939957637' status='passed' stop='1675939957638'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1675939957639' status='passed' stop='1675939969227'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675939957641' status='passed' stop='1675939969225'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='88fc75c8-b7a1-479d-988c-cdb1cee89340-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675939969227' status='passed' stop='1675939970184'>
+            <name>When I login with admin and Welkom01!</name>
+            <title>When I login with admin and Welkom01!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps>
+                <step start='1675939969231' status='passed' stop='1675939969254'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d1a30e24-cd4c-4de6-968c-cd3361c3ef59-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='63633ee0-8821-4476-8be3-04abefe08940-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675939969263' status='passed' stop='1675939969301'>
+                    <name>POST /session/:sessionId/element/41cfce5b-3c99-4067-b20a-84e72529f710/clear</name>
+                    <title>POST /session/:sessionId/element/41cfce5b-3c99-4067-b20a-84e72529f710/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675939969301' status='passed' stop='1675939969360'>
+                    <name>POST /session/:sessionId/element/41cfce5b-3c99-4067-b20a-84e72529f710/value</name>
+                    <title>POST /session/:sessionId/element/41cfce5b-3c99-4067-b20a-84e72529f710/value</title>
+                    <attachments>
+                        <attachment title='Request' source='342020c1-cca0-4e21-b9c2-103b8ac5b8e7-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675939969361' status='passed' stop='1675939969381'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='05a9b116-566b-4e50-b905-14aa720b21b5-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='2072d146-3a2e-4b90-be21-2a88a7d63385-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675939969382' status='passed' stop='1675939969415'>
+                    <name>POST /session/:sessionId/element/b5a18bca-060d-4da0-8fb3-c14a09033f42/clear</name>
+                    <title>POST /session/:sessionId/element/b5a18bca-060d-4da0-8fb3-c14a09033f42/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675939969416' status='passed' stop='1675939969475'>
+                    <name>POST /session/:sessionId/element/b5a18bca-060d-4da0-8fb3-c14a09033f42/value</name>
+                    <title>POST /session/:sessionId/element/b5a18bca-060d-4da0-8fb3-c14a09033f42/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c5c5a1d3-b820-4575-8b93-5fb4918d3678-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675939969475' status='passed' stop='1675939969495'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1546b815-1a32-4fb2-8d93-fba44f372e8a-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='c93cf4ff-e5f3-4586-82b8-f3c35da775d7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675939969498' status='passed' stop='1675939970183'>
+                    <name>POST /session/:sessionId/element/39069df3-52b8-49cf-b53e-4f00b8e22e94/click</name>
+                    <title>POST /session/:sessionId/element/39069df3-52b8-49cf-b53e-4f00b8e22e94/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1675939970184' status='broken' stop='1675939970186'>
+            <name>Then I should see message and date saying Based on prefab scorecards generated on</name>
+            <title>Then I should see message and date saying Based on prefab scorecards generated on</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see message and date saying Based on prefab scorecards generated on" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see message and date saying Based on prefab scorecards generated on" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Auto_learning\webdriverio\features\login.feature):1:1
+                	at Scenario(As a user, I can log into the VRS platform):3:3
+                	at Step(I should see message and date saying &lt;message>):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675939970186' status='passed' stop='1675939970187'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.78'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
